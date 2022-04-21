@@ -1,0 +1,10 @@
+**/*.pyc
+**/*.json
+**/*.cif
+**/*checkpoint*
+**/callback/*
+**/megnet/data/resources/*
+**/megnet/data/tests/*
+**/callback/*
+**/wandb/*
+**/*.pickle
