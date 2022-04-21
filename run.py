@@ -16,6 +16,7 @@ from megnet.models import MEGNetModel
 import dataset
 from dataset import make_datasets
 
+
 def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False

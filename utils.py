@@ -7,6 +7,7 @@ import datetime as dt
 import os
 from glob import glob
 
+
 class EarlyStopping:
     """주어진 patience 이후로 validation loss가 개선되지 않으면 학습을 조기 중지"""
     def __init__(self, patience=7, verbose=False, delta=0):
